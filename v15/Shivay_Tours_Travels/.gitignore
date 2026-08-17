@@ -6,3 +6,4 @@ data/
 *.sqlite-shm
 *.log
 .DS_Store
+.env
