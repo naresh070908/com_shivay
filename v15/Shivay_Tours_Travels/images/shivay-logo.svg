@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300">
+<defs><linearGradient id="o" x1="0" x2="1"><stop stop-color="#ffbf3b"/><stop offset="1" stop-color="#f39a0b"/></linearGradient></defs>
+<!-- road/swoosh -->
+<path d="M42 230 C120 115 235 60 370 78" fill="none" stroke="url(#o)" stroke-width="18" stroke-linecap="round"/>
+<!-- clean MPV silhouette -->
+<path d="M78 184 L118 130 Q132 108 168 106 L282 106 Q307 107 326 127 L363 169 Q374 181 401 184 L430 188 Q445 190 445 204 L445 221 Q445 232 432 232 H74 Q61 232 61 218 V201 Q61 191 78 184Z"
+ fill="#f1f4f6" stroke="#f39a0b" stroke-width="6"/>
+<!-- windows -->
+<path d="M135 139 L170 119 H222 L222 166 H112Z" fill="#2e4556"/>
+<path d="M231 119 H277 Q294 120 306 136 L329 166 H231Z" fill="#2e4556"/>
+<path d="M130 142 H216" stroke="#7890a1" stroke-width="4" opacity=".7"/>
+<!-- lights -->
+<rect x="74" y="181" width="28" height="13" rx="5" fill="#ffcf68"/>
+<rect x="395" y="183" width="28" height="13" rx="5" fill="#dbe4eb"/>
+<!-- wheels -->
+<circle cx="132" cy="224" r="30" fill="#0d1115" stroke="#77818b" stroke-width="7"/><circle cx="132" cy="224" r="11" fill="#f39a0b"/>
+<circle cx="369" cy="224" r="30" fill="#0d1115" stroke="#77818b" stroke-width="7"/><circle cx="369" cy="224" r="11" fill="#f39a0b"/>
+<!-- brand -->
+<text x="485" y="148" font-family="Arial" font-size="88" font-weight="800" fill="#fff">SHIV<tspan fill="#f39a0b">AY</tspan></text>
+<text x="489" y="200" font-family="Arial" font-size="30" font-weight="700" fill="#fff" letter-spacing="6">TOUR AND TRAVELS</text>
+<path d="M490 222 H925" stroke="#f39a0b" stroke-width="5" stroke-linecap="round"/>
+</svg>

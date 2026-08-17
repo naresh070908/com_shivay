@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#252d36"/><stop offset="1" stop-color="#6b604a"/></linearGradient></defs>
+<rect width="1200" height="650" fill="url(#g)"/>
+<circle cx="980" cy="130" r="75" fill="#f7b843" opacity=".8"/>
+<path d="M0 480 Q240 350 480 455 T920 390 T1200 430 V650 H0Z" fill="#151a1e"/>
+<path d="M0 545 Q250 470 500 530 T1200 500" fill="none" stroke="#d0b47a" stroke-width="18" opacity=".5"/>
+<text x="70" y="120" font-family="Arial" font-size="34" font-weight="700" fill="#fff">SHIVAY TOUR AND TRAVELS</text>
+<text x="70" y="180" font-family="Arial" font-size="56" font-weight="800" fill="#F39A0B">LOCAL SIGHTSEEING</text>
+<rect x="70" y="215" width="270" height="6" rx="3" fill="#F39A0B"/>
+</svg>

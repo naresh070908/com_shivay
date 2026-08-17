@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#394957"/><stop offset=".62" stop-color="#8d8f82"/><stop offset="1" stop-color="#33383b"/></linearGradient><linearGradient id="car" x1="0" x2="1"><stop stop-color="#fafafa"/><stop offset="1" stop-color="#cfd3d4"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<path d="M0 360 Q230 255 450 350 T900 310 T1200 350 V675 H0Z" fill="#3f4a3e" opacity=".75"/>
+<path d="M0 525 Q350 440 680 505 T1200 450 V675 H0Z" fill="#22272a"/>
+<path d="M0 560 Q300 500 600 540 T1200 500" fill="none" stroke="#9c9c91" stroke-width="25" opacity=".65"/>
+<g transform="translate(105 45)">
+<path d="M210 425 L270 310 Q295 270 355 270 H720 Q775 270 814 315 L880 395 Q900 420 944 425 L978 440 Q1000 450 1000 485 H175 Q175 450 210 425Z" fill="url(#car)" stroke="#b4b7b8" stroke-width="8"/>
+<path d="M315 280 H705 Q745 280 775 317 L815 365 H272 L307 299 Q310 286 315 280Z" fill="#8aa4b0"/>
+<path d="M520 282 V365" stroke="#6e8189" stroke-width="6"/><path d="M680 285 V365" stroke="#6e8189" stroke-width="6"/>
+<path d="M240 390 H850" stroke="#969b9e" stroke-width="8"/>
+<rect x="815" y="385" width="55" height="24" rx="8" fill="#f5a800"/>
+<circle cx="310" cy="485" r="65" fill="#15181a"/><circle cx="310" cy="485" r="28" fill="#f39a0b"/>
+<circle cx="850" cy="485" r="65" fill="#15181a"/><circle cx="850" cy="485" r="28" fill="#f39a0b"/>
+<text x="570" y="210" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#fff">ERTIGA • SHIVAY TOUR AND TRAVELS</text>
+</g></svg>

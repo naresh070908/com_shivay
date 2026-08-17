@@ -1,0 +1,9 @@
+{
+  "name":"shivay-tour-travels-v12",
+  "version":"12.0.0",
+  "private":true,
+  "description":"Shivay Tour & Travels V12 — mobile-first booking website with Node.js and SQLite backend.",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=22.5.0"}
+}

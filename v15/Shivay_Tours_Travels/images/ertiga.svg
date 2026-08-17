@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#f3f3f1"/><stop offset="1" stop-color="#dfe4e6"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<path d="M90 510 H1110" stroke="#b8bec2" stroke-width="8"/>
+<path d="M220 435 L290 340 Q315 310 370 310 H760 Q815 310 850 350 L925 430 Q945 450 985 456 L1015 465 Q1045 476 1038 510 H180 Q170 475 220 435Z" fill="#252D36"/>
+<path d="M330 320 H735 Q770 320 800 350 L835 397 H290 L322 342 Q325 329 330 320Z" fill="#bcd0d4"/>
+<circle cx="315" cy="500" r="55" fill="#15181a"/><circle cx="315" cy="500" r="24" fill="#F39A0B"/>
+<circle cx="900" cy="500" r="55" fill="#15181a"/><circle cx="900" cy="500" r="24" fill="#F39A0B"/>
+<text x="600" y="115" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="#20252a">MARUTI SUZUKI ERTIGA</text>
+</svg>

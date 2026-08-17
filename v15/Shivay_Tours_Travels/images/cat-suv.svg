@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180">
+<rect width="300" height="180" rx="20" fill="#f1f3f3"/>
+<path d="M55 123 L77 91 Q84 80 101 80 H198 Q216 80 226 94 L247 119 Q251 124 263 126 L270 132 H45 Q45 126 55 123Z" fill="#252D36"/>
+<circle cx="91" cy="133" r="16" fill="#111"/><circle cx="221" cy="133" r="16" fill="#111"/>
+<text x="150" y="45" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#333">SUV</text>
+</svg>

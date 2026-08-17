@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#061526">
+  <meta name="description" content="Shivay Tours & Travels — premium car and taxi booking.">
+  <title>Shivay Tours & Travels | Premium Car Booking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <nav id="nav" aria-label="Main menu"><a href="#services">Trips</a><a href="#fleet">Our Fleet</a><a
+        href="#booking">Book</a><button id="navClose" class="nav-close" type="button">Close Menu</button>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <img class="hero-reference" src="images/hero-reference.jpg"
+        alt="Shivay Tours & Travels mountain and temple travel scene">
+      <button class="hero-hotspot hero-menu" id="heroMenu" aria-label="Open menu"></button>
+      <a class="hero-hotspot hero-book-hotspot" href="#booking" aria-label="Book a Vehicle"></a>
+    </section>
+
+    <section class="real-travel card-section" id="services">
+      <div class="section-title cream-title"><span>MADE FOR <b>REAL TRAVEL</b></span><small>Travel Anywhere,
+          Anytime</small></div>
+      <div class="trip-grid">
+        <a href="#booking" class="trip"><span class="trip-icon">⌖</span><b>Local Travel</b></a>
+        <a href="#booking" class="trip"><span class="trip-icon">🛕</span><b>Temple Trips</b></a>
+        <a href="#booking" class="trip"><span class="trip-icon">♙</span><b>Family Trips</b></a>
+      </div>
+    </section>
+
+    <section class="fleet-section" id="fleet">
+      <div class="section-title light-title"><span>OUR <b>FLEET</b></span><small>Choose a category to explore
+          vehicles</small></div>
+      <div class="fleet-categories" id="fleetCategories"></div>
+      <div class="fleet-panel" id="fleetPanel" hidden>
+        <div class="fleet-panel-head">
+          <div><small id="fleetPanelKicker">CATEGORY</small>
+            <h2 id="fleetPanelTitle"></h2>
+          </div><button class="panel-close" id="fleetPanelClose">Close</button>
+        </div>
+        <div class="vehicle-grid" id="vehicleGrid"></div>
+      </div>
+    </section>
+
+
+    <section class="booking-section" id="booking">
+      <div class="section-title light-title"><span>BOOK <b>YOUR RIDE</b></span><small>Official website booking •
+          Database record • WhatsApp</small></div>
+      <form id="bookingForm" class="booking-form">
+        <div class="form-step"><span>1</span>
+          <div><b>Trip Details</b><small>Tell us where and when</small></div>
+        </div>
+        <div class="form-grid">
+          <label>Pickup Location<input id="pickup" required maxlength="160"
+              placeholder="e.g. Indore Railway Station"></label>
+          <label>Drop Location<input id="destination" required maxlength="160"
+              placeholder="e.g. Ujjain Mahakal"></label>
+          <label>Pickup Date<input id="date" type="date" required></label>
+          <label>Pickup Time<input id="time" type="time" required></label>
+          <label>Trip Type<select id="tripType">
+              <option>Local Travel</option>
+              <option>Temple Trip</option>
+              <option>Family Trip</option>
+              <option>Outstation</option>
+            </select></label>
+          <label>Passengers<input id="passengers" type="number" min="1" max="7" value="1" required></label>
+        </div>
+        <div class="form-step"><span>2</span>
+          <div><b>Choose Vehicle</b><small>Vehicle list stays hidden until you choose a category above</small></div>
+        </div>
+        <div class="vehicle-choice" id="vehicleChoice"></div>
+        <div class="form-step"><span>3</span>
+          <div><b>Your Details</b><small>We need this to confirm your ride</small></div>
+        </div>
+        <div class="form-grid">
+          <label>Full Name<input id="name" required maxlength="80" placeholder="Your name"></label>
+          <label>Mobile Number<input id="mobile" required maxlength="20" inputmode="tel"
+              placeholder="10-digit mobile number"></label>
+          <label class="wide">Additional Note<textarea id="message" rows="3" maxlength="500"
+              placeholder="Any special request? (optional)"></textarea></label>
+        </div>
+        <button class="gold-btn submit-btn" type="submit">Confirm Booking &amp; Open WhatsApp <span>→</span></button>
+        <p class="form-note">Your request is saved in Shivay's booking database first. Final availability and fare are
+          confirmed by the owner.</p>
+        <div id="bookingResult" class="result" aria-live="polite"></div>
+      </form>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div><img src="images/shivay-logo.svg" alt=""><b>Shivay Tours &amp; Travels</b><small>Premium local, temple,
+          family &amp; outstation rides.</small></div>
+      <div class="footer-actions"><a href="tel:+919340568769">📞 Call</a><a href="https://wa.me/919340568769"
+          target="_blank" rel="noopener">💬 WhatsApp</a></div>
+    </div>
+    <div class="copyright">♡ Trusted by 1000+ Happy Customers • © <span id="year"></span> Shivay Tours &amp; Travels
+    </div>
+  </footer>
+  <div class="vehicle-modal" id="vehicleModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-card">
+      <div class="modal-image"><img id="modalImage" alt="Vehicle photo"></div>
+      <div class="modal-content">
+        <div class="modal-heading">
+          <div><span id="modalCategory"></span>
+            <h2 id="modalName"></h2>
+          </div><span id="modalSeats"></span>
+        </div>
+        <div class="modal-tags" id="modalTags"></div>
+        <div class="modal-gallery" id="modalGallery"></div><button class="gold-btn modal-book" id="modalBook">Book This
+          Vehicle →</button><button class="modal-close-bottom" id="modalClose">Close Vehicle Details</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
